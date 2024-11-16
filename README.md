@@ -23,6 +23,9 @@ The repository is organized into folders, each focusing on a specific type of pr
    ```bash
    python traditional_vs_bypass.py
 
+## Disclaimer
+Please Go through the Analysis.md file for Explainations
+
 ## Contribution
 
 Contributions are welcome! If you have unconventional solutions or creative ideas, feel free to:
