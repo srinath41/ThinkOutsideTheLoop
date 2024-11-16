@@ -1,0 +1,44 @@
+# Test Case 1: Basic Example
+edges = [[1, 2], [2, 3]]
+Expected Output: 2
+Explanation: The center of the star graph is node 2 as it is the common node in both edges.
+
+# Test Case 2: Another simple case
+edges = [[1, 3], [2, 3]]
+Expected Output: 3
+Explanation: The center of the star graph is node 3 as it is the common node in both edges.
+
+# Test Case 3: Case with more nodes
+edges = [[1, 4], [2, 4], [3, 4]]
+Expected Output: 4
+Explanation: Node 4 is the center, as it is common in all the edges.
+
+# Test Case 4: Case with 5 nodes
+edges = [[1, 2], [2, 3], [2, 4], [2, 5]]
+Expected Output: 2
+Explanation: Node 2 is the center, as it appears in all the edges.
+
+# Test Case 5: Case with the smallest possible star graph (n = 2)
+edges = [[1, 2]]
+Expected Output: 1
+Explanation: There is only one edge and two nodes, making node 1 the center.
+
+# Test Case 6: Case with a larger number of nodes (n = 10)
+edges = [[1, 5], [2, 5], [3, 5], [4, 5], [6, 5], [7, 5], [8, 5], [9, 5], [10, 5]]
+Expected Output: 5
+Explanation: Node 5 is the center as it is the common node in all the edges.
+
+# Test Case 7: Case with non-consecutive node labels
+edges = [[1, 7], [3, 7], [5, 7], [6, 7], [8, 7]]
+Expected Output: 7
+Explanation: Node 7 is the center, appearing in all the edges.
+
+# Test Case 8: Edge case where nodes are at the maximum range (n = 100)
+edges = [[1, 100], [2, 100], [3, 100], [4, 100], [5, 100], [6, 100], [7, 100], [8, 100], [9, 100]]
+Expected Output: 100
+Explanation: Node 100 is the center, appearing in all the edges.
+
+# Test Case 9: Randomized case with no repeated nodes except the center
+edges = [[2, 5], [3, 5], [4, 5]]
+Expected Output: 5
+Explanation: Node 5 is the center, appearing in all edges.
