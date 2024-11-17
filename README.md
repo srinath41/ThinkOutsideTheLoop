@@ -18,10 +18,10 @@ The repository is organized into folders, each focusing on a specific type of pr
    git clone https://github.com/yourusername/ThinkOutsideTheLoop.git
 2. Navigate to a folder of interest:
    ```bash
-   cd ThinkOutsideTheLoop/star_graph_center
+   cd ThinkOutsideTheLoop/<folder_name>
 3. Run the code files:
    ```bash
-   python traditional_vs_bypass.py
+   python <file_name>.py
 
 ## Contribution
 
