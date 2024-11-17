@@ -18,10 +18,20 @@ The repository is organized into folders, each focusing on a specific type of pr
    git clone https://github.com/yourusername/ThinkOutsideTheLoop.git
 2. Navigate to a folder of interest:
    ```bash
+<<<<<<< HEAD
    cd ThinkOutsideTheLoop/<folder_name>
 3. Run the code files:
    ```bash
    python <file_name>.py
+=======
+   cd ThinkOutsideTheLoop/<folder>
+3. Run the code files:
+   ```bash
+   Python <file_name>.py
+
+## Disclaimer
+Please Go through the Analysis.md file for Explainations
+>>>>>>> ff24a581e6295c3989f1d730b1cd56761de07a34
 
 ## Contribution
 
